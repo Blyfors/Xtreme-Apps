@@ -15,8 +15,3 @@
 #define FLIPPERZERO_SERIAL_BAUD 115200
 
 #define NA 0
-
-#include <xtreme/xtreme.h>
-
-#define UART_CH \
-    (xtreme_settings.uart_esp_channel == UARTDefault ? FuriHalUartIdUSART1 : FuriHalUartIdLPUART1)
