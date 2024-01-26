@@ -2,7 +2,7 @@
 
 App(
     appid="mifare_nested",  # Must be unique
-    name="mifare_nested",  # Displayed in menus
+    name="App mifare_nested",  # Displayed in menus
     apptype=FlipperAppType.EXTERNAL,
     entry_point="mifare_nested_app",
     stack_size=2 * 1024,

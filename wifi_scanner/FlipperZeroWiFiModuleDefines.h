@@ -15,7 +15,10 @@
 #define FLIPPERZERO_SERIAL_BAUD 115200
 
 #define NA 0
+<<<<<<< HEAD
 
 #include <xtreme/xtreme.h>
 
 #define UART_CH (xtreme_settings.uart_esp_channel)
+=======
+>>>>>>> 4110df853eaedacbf095b7bf10366d493d322451
